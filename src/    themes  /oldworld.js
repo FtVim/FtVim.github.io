@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   plain: {
     color: "#c9c7cd", // foreground color
     backgroundColor: "#161617", // background color
