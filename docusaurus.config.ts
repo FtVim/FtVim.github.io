@@ -110,4 +110,4 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-module.exports = config;
+export default config;
