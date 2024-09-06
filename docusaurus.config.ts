@@ -2,6 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const theme = require("./src/themes/oldworld");
+
 const config: Config = {
   title: 'FtVim',
   tagline: 'A Neovim config for the lazy',
@@ -104,10 +106,10 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} FtVim, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: theme,
+      darkTheme: theme,
     },
   } satisfies Preset.ThemeConfig,
 };
 
-export default config;
+module.exports = config;
