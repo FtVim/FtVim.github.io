@@ -1,4 +1,4 @@
-import {theme} from './src/themes/oldworld';
+import theme from './src/themes/oldworld';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
