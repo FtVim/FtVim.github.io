@@ -13,7 +13,8 @@ To ensure a clean installation, remove or back up your existing Neovim configura
 rm -rf ~/.config/nvim
 
 # Optional but recommended: clean Neovim data and cache
-rm -rf ~/.local/share/nvim
+rm -rf ~/.local/share/nvim/lazy
+rm -rf ~/.local/share/nvim/mason
 rm -rf ~/.local/state/nvim
 rm -rf ~/.cache/nvim
 ```
