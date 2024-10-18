@@ -24,7 +24,7 @@ FtVim is an aesthetic and feature-rich Neovim configuration designed for ease of
 
 Before installing FtVim, ensure you have the following installed on your system:
 
-- Neovim >= **0.9.0**
+- Neovim >= **0.9.5**
 - Git >= **2.19.0**
 - a [Nerd Font](https://www.nerdfonts.com/) for proper icon rendering
 - Ripgrep for faster file searching
