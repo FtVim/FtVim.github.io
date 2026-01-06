@@ -192,6 +192,7 @@ In Neo-tree:
 
 | Keymap | Description |
 |--------|-------------|
+| `<leader>xd` | Toggle diagnostics on/off |
 | `<leader>xl` | Location list |
 | `<leader>xq` | Quickfix list |
 | `[q` | Previous quickfix item |
