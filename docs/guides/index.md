@@ -4,7 +4,7 @@ Welcome to the FtVim guides! These practical tutorials will help you get the mos
 
 ## Available Guides
 
-### [First Steps](./first-steps)
+### [First Steps](first-steps.md)
 
 Just installed FtVim? Start here! Learn how to:
 - Verify your installation
@@ -12,14 +12,14 @@ Just installed FtVim? Start here! Learn how to:
 - Learn essential keymaps
 - Make your first customizations
 
-### [Migrating from VSCode](./migrating-from-vscode)
+### [Migrating from VSCode](migrating-from-vscode.md)
 
 Coming from Visual Studio Code? This guide maps familiar VSCode features to their FtVim equivalents:
 - Keyboard shortcuts comparison
 - Extension alternatives
 - Workflow tips for the transition
 
-### [Tips and Tricks](./tips-and-tricks)
+### [Tips and Tricks](tips-and-tricks.md)
 
 Level up your editing skills with:
 - Essential Vim motions
@@ -38,6 +38,6 @@ Level up your editing skills with:
 
 ## Need More Help?
 
-- Check the [Troubleshooting](../troubleshooting) page for common issues
-- Browse the [Configuration](../configuration/) docs for customization options
-- Explore [Extras](../extras/) for optional features
+- Check the [Troubleshooting](/docs/troubleshooting) page for common issues
+- Browse the [Configuration](/docs/configuration/) docs for customization options
+- Explore [Extras](/docs/extras/) for optional features

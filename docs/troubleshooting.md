@@ -203,7 +203,7 @@ nvim  # Plugins will reinstall
 
 ### Slow Editing Large Files
 
-1. **Disable Treesitter for large files** (see [Treesitter docs](./configuration/treesitter))
+1. **Disable Treesitter for large files** (see [Treesitter docs](/docs/configuration/treesitter))
 2. **Disable LSP for specific files:**
    ```vim
    :LspStop

@@ -217,10 +217,10 @@ Press `<leader>xd` to toggle error/warning display.
 
 Now that you have the basics:
 
-1. **[Keymaps](../configuration/keymaps)** - Complete keymap reference
-2. **[Plugins](../configuration/plugins)** - Explore included plugins
-3. **[LSP](../configuration/lsp)** - Configure language servers
-4. **[Tips and Tricks](./tips-and-tricks)** - Level up your Vim skills
+1. **[Keymaps](/docs/configuration/keymaps)** - Complete keymap reference
+2. **[Plugins](/docs/configuration/plugins)** - Explore included plugins
+3. **[LSP](/docs/configuration/lsp)** - Configure language servers
+4. **[Tips and Tricks](tips-and-tricks.md)** - Level up your Vim skills
 
 ## Getting Help
 

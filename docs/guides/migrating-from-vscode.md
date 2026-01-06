@@ -225,7 +225,7 @@ If you're stuck:
 
 1. Press `<leader>` to see available commands
 2. `:help <topic>` for built-in docs
-3. Check [Troubleshooting](../troubleshooting) for common issues
-4. [Tips and Tricks](./tips-and-tricks) for more techniques
+3. Check [Troubleshooting](/docs/troubleshooting) for common issues
+4. [Tips and Tricks](tips-and-tricks.md) for more techniques
 
 Remember: Every Vim expert was once a beginner. The learning curve is worth it!
