@@ -18,25 +18,53 @@ sidebar_position: 1
 
 Welcome to FtVim! 🎉
 
-FtVim is an aesthetic and feature-rich Neovim configuration designed for ease of use and extensibility. With a carefully curated set of plugins, FtVim enhances your coding experience while providing a beautiful, functional environment for developers.
+FtVim is a modern Neovim distribution designed for developers. Originally created for 42 Barcelona students, it provides a complete IDE experience out of the box with sensible defaults and easy customization.
 
-# 🛠️ Prerequisites
+## ✨ Features
 
-Before installing FtVim, ensure you have the following installed on your system:
+- **Modern Plugin Management** - Powered by [lazy.nvim](https://github.com/folke/lazy.nvim)
+- **Fast Fuzzy Finding** - File search, grep, and more with [snacks.nvim](https://github.com/folke/snacks.nvim)
+- **LSP Support** - Auto-completion, diagnostics, and code actions with [blink.cmp](https://github.com/saghen/blink.cmp)
+- **Git Integration** - Git signs, blame, and diff with [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- **Beautiful UI** - [Catppuccin](https://github.com/catppuccin/nvim) colorscheme, bufferline, and statusline
+- **42 School Support** - Optional extra with header, formatter, and line counter
+- **GitHub Copilot** - Optional AI-powered code completion
 
-- Neovim >= **0.9.5**
-- Git >= **2.19.0**
-- a [Nerd Font](https://www.nerdfonts.com/) for proper icon rendering
-- Ripgrep for faster file searching
+## 🛠️ Prerequisites
+
+Before installing FtVim, ensure you have the following:
+
+| Requirement | Minimum Version | Notes |
+|-------------|-----------------|-------|
+| Neovim | **0.10.0** | Required for modern LSP features |
+| Git | **2.19.0** | For plugin management |
+| Nerd Font | Any | For proper icon rendering |
+| ripgrep | Any | For fast file searching |
 
 ## ⭐ Quick Install Commands
 
-- Install Neovim:
+### Install Neovim
+
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/FtVim/FtVim/refs/heads/main/scripts/install-neovim.sh)
+bash <(curl -s https://raw.githubusercontent.com/FtVim/FtVim/main/scripts/install-neovim.sh)
 ```
 
-- Install Ripgrep:
+### Install Ripgrep
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/FtVim/FtVim/main/scripts/install-ripgrep.sh)
 ```
-bash <(curl -s https://raw.githubusercontent.com/FtVim/FtVim/refs/heads/main/scripts/install-ripgrep.sh)
-```
+
+### Install a Nerd Font
+
+Download and install a [Nerd Font](https://www.nerdfonts.com/font-downloads) of your choice. Popular options include:
+
+- JetBrainsMono Nerd Font
+- FiraCode Nerd Font
+- Hack Nerd Font
+
+After installation, configure your terminal to use the Nerd Font.
+
+## 🚀 Next Steps
+
+Ready to install? Head to the [Installation](/docs/installation) guide!
