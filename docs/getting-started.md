@@ -36,7 +36,7 @@ Before installing FtVim, ensure you have the following:
 
 | Requirement | Minimum Version | Notes |
 |-------------|-----------------|-------|
-| Neovim | **0.10.0** | Required for modern LSP features |
+| Neovim | **0.11.0** | Required for modern LSP features |
 | Git | **2.19.0** | For plugin management |
 | Nerd Font | Any | For proper icon rendering |
 | ripgrep | Any | For fast file searching |
